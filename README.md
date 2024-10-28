@@ -76,9 +76,11 @@ Before setting up **DiamondVault**, ensure you have the following tools and foun
   - They represent business processes initiated and completed by an actor.
   - They deliver value to the end user.
 
-- **Expanded Use Cases**: Expanded Use cases are written that show the pre and post conditions for a use case, how the use case begins with and ends with, actor input and output actions, system responses. Ex: <img src="/project_documentation/EUC.jpg" alt="Expanded Use Case" width="400">.
+- **Expanded Use Cases**: Expanded Use cases are written that show the pre and post conditions for a use case, how the use case begins with and ends with, actor input and output actions, system responses. For example, refer to the expanded use case for login
+  <img src="/project_documentation/EUC.jpg" alt="Expanded Use Case" width="400">
 
-- **Sequence Diagrams**: EUC (Expanded Use Cases) captured as sequence diagrams where actor/object and object/actor interactions are shown. For example, refer to the <img src="/project_documentation/seq_diagram.jpg" alt="Sequence Diagram" width="500">
+- **Sequence Diagrams**: EUC (Expanded Use Cases) captured as sequence diagrams where actor/object and object/actor interactions are shown. For example, refer to the sequence diagram of admin login.
+  <img src="/project_documentation/seq_diagram.jpg" alt="Sequence Diagram" width="500">
   
 ## Tools and Technologies Used
 - **Development**: Developed using VS Code and GitHub for code collaboration and integration.
