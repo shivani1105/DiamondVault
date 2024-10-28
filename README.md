@@ -18,16 +18,15 @@ The primary objective of DiamondVault is to provide a robust and user-friendly s
 - **Real-Time Market Updates**: Adjusts product pricing based on live gold and silver market prices.
 - **Search and Filter**: Allows users to search and filter products by various attributes like title, category, and price.
 
-## Tools and Technologies Used
-- **Development**: Developed using VS Code and GitHub for code collaboration and integration.
-- **Project Management**: Trello was used for task management and Agile tracking, facilitating collaboration and progress monitoring.
-- **Demo and Documentation**: [YouTube Video Demo](https://www.youtube.com/watch?v=P7_rFjazdtw) showcases the application's functionality and user interface.
-
 ## Agile-Scrum Approach
 This project followed the Agile-Scrum methodology to ensure continuous development and integration of features. The Requirement to Use Case Matrix and Increment Matrix played a crucial role in aligning project requirements with development efforts and organizing task dependencies effectively:
 
-- **Requirement to Use Case Matrix**: This matrix helped us identify and prioritize the essential use cases required to meet the project goals, ensuring that development efforts were aligned with high-priority requirements.
-- **Increment Matrix**: By breaking down the use cases and tracking dependencies, the Increment Matrix facilitated structured planning across sprints, optimizing resource allocation and task assignment for each iteration.
+- **Requirement to Use Case Matrix**: This matrix helped us identify and prioritize the essential use cases required to meet the project goals, ensuring that development efforts were aligned with high-priority requirements.  
+  ![Requirement to Use Case Matrix](/project_documentation/rtuc_matrix.jpg)
+
+- **Increment Matrix**: By breaking down the use cases and tracking dependencies, the Increment Matrix facilitated structured planning across sprints, optimizing resource allocation and task assignment for each iteration.  
+  ![Increment Matrix](/project_documentation/increment_matrix.jpg)
+
   
 Additional Scrum practices included:
 
@@ -44,6 +43,11 @@ git clone https://github.com/shivani1105/DiamondVault.git
 cd DiamondVault
 # Install dependencies
 ```
+## Tools and Technologies Used
+- **Development**: Developed using VS Code and GitHub for code collaboration and integration.
+- **Project Management**: Trello was used for task management and Agile tracking, facilitating collaboration and progress monitoring.
+- **Demo and Documentation**: [YouTube Video Demo](https://www.youtube.com/watch?v=P7_rFjazdtw) showcases the application's functionality and user interface.
+
 
 ## How It Works
 1. **Admin Login and Authentication**: Secure login for authorized access.
