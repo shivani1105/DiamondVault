@@ -36,12 +36,45 @@ Additional Scrum practices included:
 5. **Tools Used**: Trello for task management and GitHub for source control and code integration.
 
 ## Getting Started
-To get started with DiamondVault, clone the repository and set up the environment by following the instructions below:
-```bash
-git clone https://github.com/shivani1105/DiamondVault.git
-cd DiamondVault
-# Install dependencies
-```
+
+Below is a glance into development environment and tools and structure of the project **DiamondVault**.
+
+### Prerequisites
+
+- **Android Development**: Set up [Android Studio](https://developer.android.com/studio) for Android development, as this project uses Java for backend logic.
+- **Languages & Frameworks**: The project leverages:
+  - **HTML, CSS, Bootstrap** for UI components and layout.
+  - **Java** for Android development.
+- **MVVM Architecture**: This project follows the Model-View-ViewModel (MVVM) design pattern, like using **ViewModelProviderFactory** for managing UI-related data.
+- **Database**: [MySQL](https://www.mysql.com/) is used for data persistence, and **QR services** (a third-party service) for generating QR codes.
+
+### Setup Instructions
+
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/shivani1105/DiamondVault.git
+   cd DiamondVault
+   ```
+2. Set up the necessary dependencies:
+   ```bash
+   # Install dependencies here if applicable
+   ```
+3. Configure MySQL for the project by setting up a new database instance and adjusting any necessary connection parameters in the project files.
+
+4. Import the project into Android Studio, configure the dependencies, and you’re ready to begin development.
+
+### Project Design
+
+- **Diagrams and Models**: The project design includes various diagrams such as domain models and sequence diagrams, created using [Flowchart Maker and Online Diagram Software](https://app.diagrams.net/).
+
+- **Use Cases**: Use cases are written following essential principles:
+  - They represent business processes initiated and completed by an actor.
+  - They deliver value to the end user.
+
+- **Expanded Use Cases**: Expanded Use cases are written that show the pre and post conditions for a use case, how the use case begins with and ends with, actor input and output actions, system responses. For example, refer to the <img src="/project_documentation/EUC.jpg" alt="Expanded Use Case" width="500">.
+
+- **Sequence Diagrams**: EUC (Expanded Use Cases) captured as sequence diagrams where actor/object and object/actor interactions are shown. For example, refer to the <img src="/project_documentation/seq_diagram.jpg" alt="Sequence Diagram" width="500">
+  
 ## Tools and Technologies Used
 - **Development**: Developed using VS Code and GitHub for code collaboration and integration.
 - **Project Management**: Trello was used for task management and Agile tracking, facilitating collaboration and progress monitoring.
