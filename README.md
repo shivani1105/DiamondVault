@@ -55,10 +55,8 @@ Below is a glance into development environment and tools and structure of the pr
    git clone https://github.com/shivani1105/DiamondVault.git
    cd DiamondVault
    ```
-2. Set up the necessary dependencies:
-   ```bash
-   # Install dependencies here if applicable
-   ```
+2. Set up the necessary dependencies
+
 3. Configure MySQL for the project by setting up a new database instance and adjusting any necessary connection parameters in the project files.
 
 4. Import the project into Android Studio, configure the dependencies, and you’re ready to begin development.
