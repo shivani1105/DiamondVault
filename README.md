@@ -22,11 +22,10 @@ The primary objective of DiamondVault is to provide a robust and user-friendly s
 This project followed the Agile-Scrum methodology to ensure continuous development and integration of features. The Requirement to Use Case Matrix and Increment Matrix played a crucial role in aligning project requirements with development efforts and organizing task dependencies effectively:
 
 - **Requirement to Use Case Matrix**: This matrix helped us identify and prioritize the essential use cases required to meet the project goals, ensuring that development efforts were aligned with high-priority requirements.  
-  ![Requirement to Use Case Matrix](/project_documentation/rtuc_matrix.jpg)
+  <img src="/project_documentation/rtuc_matrix.jpg" alt="Requirement to Use Case Matrix" width="500">
 
 - **Increment Matrix**: By breaking down the use cases and tracking dependencies, the Increment Matrix facilitated structured planning across sprints, optimizing resource allocation and task assignment for each iteration.  
-  ![Increment Matrix](/project_documentation/increment_matrix.jpg)
-
+  <img src="/project_documentation/increment_matrix.jpg" alt="Increment Matrix" width="500">
   
 Additional Scrum practices included:
 
