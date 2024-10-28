@@ -37,29 +37,36 @@ Additional Scrum practices included:
 
 ## Getting Started
 
-Below is a glance into development environment and tools and structure of the project **DiamondVault**.
+Before setting up **DiamondVault**, ensure you have the following tools and foundational knowledge:
 
 ### Prerequisites
 
-- **Android Development**: Set up [Android Studio](https://developer.android.com/studio) for Android development, as this project uses Java for backend logic.
+- **Development Environment**: Install [Android Studio](https://developer.android.com/studio) as the primary IDE for this project.
 - **Languages & Frameworks**: The project leverages:
-  - **HTML, CSS, Bootstrap** for UI components and layout.
-  - **Java** for Android development.
-- **MVVM Architecture**: This project follows the Model-View-ViewModel (MVVM) design pattern, like using **ViewModelProviderFactory** for managing UI-related data.
-- **Database**: [MySQL](https://www.mysql.com/) is used for data persistence, and **QR services** (a third-party service) for generating QR codes.
+  - **HTML, CSS, Bootstrap** Used for the front-end layout and styling.
+  - **Java** core language for Android development.
+- **MVVM Architecture**: Familiarity with the Model-View-ViewModel (MVVM) design pattern is beneficial, as the project uses ViewModelProviderFactory for UI data management.
+- **Database**: [MySQL](https://www.mysql.com/) is used for data storage. Ensure you have MySQL installed and know how to configure database connections.
+- **Third-Party Services**: Knowledge of QR services (for generating QR codes) is advantageous, as this project uses such a service (zxing).
 
 ### Setup Instructions
 
-1. Clone the repository and navigate to the project directory:
+1. **Clone the repository**: Open a terminal and run the following command to clone the project repository:
    ```bash
    git clone https://github.com/shivani1105/DiamondVault.git
    cd DiamondVault
    ```
-2. Set up the necessary dependencies
+2. **Install Dependencies**: Ensure any required libraries or dependencies are installed (if applicable). For Android Studio, open the project, and it should auto-detect and install required packages.
 
-3. Configure MySQL for the project by setting up a new database instance and adjusting any necessary connection parameters in the project files.
+3. **Configure MySQL**: 
+  - Create a new MySQL database for the project.
+  - Adjust any necessary database connection parameters in the project files to match your local MySQL setup (e.g., database name, username, password).
 
-4. Import the project into Android Studio, configure the dependencies, and you’re ready to begin development.
+4. **Open in Android Studio**:
+   - Import the project into Android Studio.
+   - Configure the project dependencies as prompted.
+
+5. **Run the Project**: Once everything is configured, build and run the project in Android Studio to begin development or testing.
 
 ### Project Design
 
